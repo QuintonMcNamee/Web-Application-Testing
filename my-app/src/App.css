@@ -1,33 +1,17 @@
-.App {
+body {
+  background-image: url('https://usathss.files.wordpress.com/2019/04/usatsi_12528069-e1555258744291.jpg?crop=0px%2C716px%2C4585px%2C2750px&resize=1000%2C600');
+}
+
+.scoreboard {
+  margin-top: 125px;
+  margin-left: 200px;
   text-align: center;
+  border: 3px solid red;
+  width: 200px;
+  background: white;
+  border-radius: 8px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.count span {
+  padding: 5px;
 }
