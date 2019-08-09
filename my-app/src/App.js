@@ -10,6 +10,7 @@ function App() {
   const handleBalls = () => {
     if(balls < 3){
       setBalls(balls + 1);
+
       return 1;
     }else {
       handleHit();
@@ -18,6 +19,7 @@ function App() {
   const handleStrikes = () => {
     if(strikes < 2){
       setStrikes(strikes + 1);
+
       return strikes;
     }else {
       return handleHit();
@@ -26,6 +28,7 @@ function App() {
   const handleFouls = () => {
     if(strikes < 2) {
       setStrikes(strikes + 1);
+
       return strikes;
     }
   }
@@ -37,6 +40,7 @@ function App() {
   return (
     <div className="scoreboard">
       <div className="display">
+
         Count:
         <div className="count">
           <span>Balls: {balls}</span>
