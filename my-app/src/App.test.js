@@ -15,9 +15,4 @@ describe('<App />', () => {
     render(<App />);
   });
 
-  it('renders Hello World', () => {
-    const app = render(<App />);
-
-    const text =
-  })
 });

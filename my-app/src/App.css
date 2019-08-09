@@ -1,3 +1,17 @@
+body {
+  background-image: url('https://usathss.files.wordpress.com/2019/04/usatsi_12528069-e1555258744291.jpg?crop=0px%2C716px%2C4585px%2C2750px&resize=1000%2C600');
+}
+
 .scoreboard {
+  margin-top: 125px;
+  margin-left: 200px;
   text-align: center;
+  border: 3px solid red;
+  width: 200px;
+  background: white;
+  border-radius: 8px;
+}
+
+.count span {
+  padding: 5px;
 }
